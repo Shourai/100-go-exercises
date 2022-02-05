@@ -13,8 +13,7 @@ func main() {
 	input, _ := scanner.ReadString('\n')
 	input = strings.TrimSuffix(input, "\n")
 
-	arr := strings.Split(input, ",")
-	sort.Strings(arr)
-	fmt.Print(arr)
-
+	array := strings.Split(input, ",")
+	sort.Strings(array)
+	fmt.Println(strings.Join(array, ","))
 }
