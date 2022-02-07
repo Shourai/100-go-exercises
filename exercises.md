@@ -22,14 +22,14 @@ Hints
 
 ## 3. Questions
 
+If input is required, assume it is provided by stdin.
+
 ### Question 1
 Level 1
 
 Question:
 Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).
 The numbers obtained should be printed in a comma-separated sequence on a single line.
-
-Hints:
 
 
 ### Question 2
@@ -47,10 +47,6 @@ Then, the output should be:
 40320
 ```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
-
 ### Question 3
 Level 1
 
@@ -64,11 +60,6 @@ Then, the output should be:
 ```
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 ```
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-Consider use dict()
-
 
 ### Question 4
 Level 1
@@ -85,9 +76,6 @@ Then, the output should be:
 ('34', '67', '55', '33', '12', '98')
 ```
 
-Hints:
-
-
 ### Question 5
 Level 1
 
@@ -96,8 +84,6 @@ Define a class which has at least two methods:
 getString: to get a string from console input
 printString: to print the string in upper case.
 Also please include simple test function to test the class methods.
-
-Hints:
 
 
 ### Question 6
@@ -124,7 +110,6 @@ The output of the program should be:
 
 Hints:
 If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26)
-In case of input data being supplied to the question, it should be assumed to be a console input.
 
 
 ### Question 7
@@ -143,11 +128,6 @@ Then, the output of the program should be:
 [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
 ```
 
-Hints:
-Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
-
-Solution:
-
 ### Question 8
 Level 2
 
@@ -161,9 +141,6 @@ Then, the output should be:
 ```
 bag,hello,without,world
 ```
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
 
 
 ### Question 9
@@ -182,9 +159,6 @@ HELLO WORLD
 PRACTICE MAKES PERFECT
 ```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
 
 ### Question 10
 Level 2
@@ -199,11 +173,6 @@ Then, the output should be:
 ```
 again and hello makes perfect practice world
 ```
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-We use set container to remove duplicated data automatically and then use sorted() to sort the data.
-
 
 ### Question 11
 Level 2
@@ -220,9 +189,6 @@ Then the output should be:
 ```
 Notes: Assume the data is input by console.
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
 
 ### Question 12
 Level 2
@@ -230,9 +196,6 @@ Level 2
 Question:
 Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
 The numbers obtained should be printed in a comma-separated sequence on a single line.
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
 
 
 ### Question 13
@@ -250,9 +213,6 @@ LETTERS 10
 DIGITS 3
 ```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
 
 ### Question 14
 Level 2
@@ -269,9 +229,6 @@ UPPER CASE 1
 LOWER CASE 9
 ```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
 
 ### Question 15
 Level 2
@@ -287,9 +244,6 @@ Then, the output should be:
 11106
 ```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
 
 ### Question 16
 Level 2
@@ -304,10 +258,6 @@ Then, the output should be:
 ```
 1,9,25,49,81
 ```
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
 
 ### Question 17
 Level 2
@@ -331,9 +281,6 @@ Then, the output should be:
 ```
 500
 ```
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
 
 
 ### Question 18
@@ -359,9 +306,6 @@ Then, the output of the program should be:
 ABd1234@1
 ```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
 ### Question 19
 Level 3
 
@@ -383,9 +327,6 @@ Then, the output of the program should be:
 ```
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]
 ```
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
 
 ### Question 20
 Level 3
@@ -421,8 +362,6 @@ Then, the output of the program should be:
 2
 ```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
 
 ### Question 22
 Level 3
@@ -449,5 +388,32 @@ or:2
 to:1
 ```
 
-Hints
-In case of input data being supplied to the question, it should be assumed to be a console input.
+### Question 23
+level 1
+
+Question:
+Write a function which can calculate square value of a number
+
+### Question 24
+Level 1
+
+Question:
+
+Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books.
+But Python has a built-in document function for every built-in functions.
+
+Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
+
+And add document for your own function
+
+### Question 34
+
+Define a function which can print a dictionary where the keys are numbers between 1 and 20 (inclusive) and the values are square of keys.
+
+### Question 52
+Create a method for the area and circumference of a circle.
+Take the radius as input.
+
+### Question 53
+Create a method for the area and perimiter of a rectangle.
+Take the width and height as input.
