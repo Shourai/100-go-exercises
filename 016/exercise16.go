@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	input := utils.GetUserInput()
+	input := utils.GetSingleLineInput()
 	slice := strings.Split(input, ",")
 
 	sliceOfOddNumbers := make([]string, 0)

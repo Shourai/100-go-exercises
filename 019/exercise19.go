@@ -15,7 +15,7 @@ type person struct {
 }
 
 func main() {
-	input := utils.GetUserInput()
+	input := utils.GetSingleLineInput()
 	slice := strings.Split(input, " ")
 
 	var people []person

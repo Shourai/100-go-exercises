@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	input := utils.GetUserInput()
+	input := utils.GetSingleLineInput()
 	integer, _ := strconv.Atoi(input)
 	compute(integer)
 
